@@ -1,11 +1,32 @@
 <footer>
   <div class="container-fluid">
-    <div class="d-flex justify-content-center text-center">
-      <div class="">
-        <a href="#">Mentions Légales</a>
-        <a href="#">Politique de protection des données personnelles</a>
-        <a href="#">règlement jeu instant gagnant</a>
-        <a href="#">règlement jeu tirage au sort</a>
+    <div class="col">
+      <div class="d-flex justify-content-center flex-wrap">
+        <img class="sticker" src="../assets/imgs/footer/PERSO9.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/DISNEY.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/PERSO6.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/MARVEL.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/BAYBLADE.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/PERSO7.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/NERF2.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/PLAYDOH.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/MONOP.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/POWER.png" alt="Bayblade">
+        <img class="sticker" src="../assets/imgs/footer/STARWARS.png" alt="Bayblade">
+      </div>
+      <div class="d-flex justify-content-center">
+        <img src="../assets/imgs/footer/LUCAS.svg" alt="Lucas Film">
+        <img src="../assets/imgs/footer/HASBRO.svg" alt="Hasbro">
+        <img src="../assets/imgs/footer/ADKEM.svg" alt="Adkem">
+        <img src="../assets/imgs/footer/DISNEY.svg" alt="Disney">
+        <img src="../assets/imgs/footer/MARVEL.svg" alt="Marvel">
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="">
+          <a href="#">Règlement</a>
+          <a href="#">Mentions Légales</a>
+          <a href="#">Contact</a>
+        </div>
       </div>
     </div>
 </footer>
