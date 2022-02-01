@@ -1,0 +1,13 @@
+.home {
+  @include pageBackground("../assets/imgs/bg-home.jpg");
+  background-position: right;
+  .brand-logo {
+    @include media-breakpoint-up($xl) {
+      width: 500px;
+    }
+  }
+  .btn.disabled {
+    opacity: 1;
+    border-color: white;
+  }
+}

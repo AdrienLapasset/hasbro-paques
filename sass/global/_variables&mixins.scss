@@ -1,0 +1,27 @@
+// Colors
+$blue: #292757;
+$blue-light: #00aff2;
+$red: #ff4d03;
+
+// Breakpoints
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+// Media breakpoints mixin
+@mixin media-breakpoint-up($breakpoints) {
+  @media (min-width: $breakpoints) {
+    @content;
+  }
+}
+
+@mixin pageBackground($imgUrl) {
+  @include media-breakpoint-up($xl) {
+    background-image: url($imgUrl);
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -1,0 +1,61 @@
+.layout {
+  background-color: $blue-light;
+  min-height: calc(100vh - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  @include media-breakpoint-up($md) {
+    background-image: url("../assets/imgs/bg-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.brand-logo {
+  max-width: 100%;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 15px;
+  width: 240px;
+  @include media-breakpoint-up($xl) {
+    width: 300px;
+  }
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  border: solid 3px #fff;
+  border-radius: 20px;
+  box-shadow: 6.3px 7.8px 0 0 #1aa1f380;
+  padding: 0 45px;
+  text-transform: uppercase;
+  color: white;
+  &.btn-primary {
+    background-color: $blue;
+  }
+  &.btn-red {
+    background-color: $red;
+  }
+  &.btn-yellow {
+    background-color: #ffa00e;
+  }
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 1;
+  text-align: center;
+  color: $blue;
+  text-transform: uppercase;
+  font-family: bello-caps, sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+.red {
+  color: $red;
+}
