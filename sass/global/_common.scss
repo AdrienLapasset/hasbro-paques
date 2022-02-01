@@ -1,14 +1,9 @@
 .layout {
-  background-color: $blue-light;
+  background-color: $blue;
   min-height: calc(100vh - 20px);
   display: flex;
   flex-direction: column;
   justify-content: start;
-  @include media-breakpoint-up($md) {
-    background-image: url("../assets/imgs/background.jpg");
-    background-size: cover;
-    background-position: center;
-  }
 }
 
 .brand-logo {
@@ -35,9 +30,6 @@
   &.btn-primary {
     background-color: $blue;
   }
-  &.btn-red {
-    background-color: $red;
-  }
   &.btn-yellow {
     background-color: #ffa00e;
   }
@@ -54,8 +46,4 @@ h1 {
 
 p {
   font-size: 16px;
-}
-
-.red {
-  color: $red;
 }

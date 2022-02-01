@@ -1,77 +1,34 @@
 header {
-  margin-bottom: -40px;
-  @include media-breakpoint-up($md) {
-    margin-bottom: -50px;
-  }
-  @include media-breakpoint-up($xl) {
-    margin-bottom: -60px;
-  }
-  .navbar {
-    background-color: $blue-light;
-    @include media-breakpoint-up($md) {
-      background-color: $blue;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    .navbar-toggler {
-      z-index: 2;
-      border: none;
-      &:focus {
-        border: none;
-        box-shadow: none;
+  &:not(.isNav) {
+    .logo-ope {
+      margin: auto;
+      display: block;
+      margin-top: 55px;
+      max-width: 100%;
+      width: 180px;
+      @include media-breakpoint-up($sm) {
+        width: 360px;
       }
     }
-    .navbar-collapse {
-      justify-content: center;
-      .navbar-nav {
-        padding-left: 15px;
-        @include media-breakpoint-up($md) {
-          transform: translateX(60px);
-        }
-        .nav-item {
-          display: flex;
-          align-items: center;
-          .nav-link {
-            color: white;
-            text-transform: uppercase;
-            font-size: 12px;
-            font-weight: 600;
-            @include media-breakpoint-up($md) {
-              padding-left: 5px;
-              padding-right: 5px;
-            }
-            @include media-breakpoint-up($xl) {
-              padding-left: 10px;
-              padding-right: 10px;
-              font-size: 16px;
-            }
-            img {
-              width: 25px;
-              @include media-breakpoint-up($xl) {
-                width: 30px;
-              }
-            }
-            &.social {
-              @include media-breakpoint-up($xl) {
-                padding-left: 5px;
-                padding-right: 5px;
-              }
-            }
-          }
-        }
-        .space {
-          display: none;
-          @include media-breakpoint-up($md) {
-            display: block;
-            width: 240px;
-          }
-          @include media-breakpoint-up($xl) {
-            width: 300px;
-          }
-          &.ishome {
-            @include media-breakpoint-up($xl) {
-              width: 450px;
-            }
+  }
+  &.isNav {
+    .menu-nav {
+      display: flex;
+      align-items: center;
+      @include media-breakpoint-up($lg) {
+        width: 360px;
+      }
+      .logo-ope {
+        width: 150px;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          a {
+            color: $blue;
+            text-decoration: none;
+            margin: 0 20px;
           }
         }
       }
