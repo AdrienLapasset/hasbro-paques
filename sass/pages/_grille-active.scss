@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  justify-content: center;
+  margin: 50px;
+  grid-template-columns: repeat(4, minmax(65px, 1fr));
+  grid-template-rows: repeat(10, minmax(80px, 1fr));
+  background-color: aqua;
+  @include media-breakup-point($sm) {
+    grid-template-columns: repeat(8, minmax(90px, 90px));
+    grid-template-rows: repeat(5, minmax(90px, 90px));
+  }
+}
+
+.box {
+  border: solid black;
+}
+
+label {
+  border: solid white;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input:checked + label {
+  border: solid blue;
+  color: blue;
+}
