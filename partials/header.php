@@ -15,25 +15,30 @@
 <body>
   <header class="<?php echo $nav ?>">
   <div class="container">
-    <div class="menu-nav">
+    <div class="menu-container">
       <img class="logo-ope" src="assets/imgs/logo-ope.png" alt="">
-      <ul>
-        <li>
-          <a href="">Déclarer mes achats</a>
-        </li>
-        <li>
-          <a href="">Mes grilles 2/2</a>
-        </li>
-        <li>
-          <a href="">mon compte</a>
-        </li>
-        <li>
-          <a href="">comment jouer ?</a>
-        </li>
-      </ul>
+      <div class="menu-nav">
+        <button class="close-menu-btn">
+          <img src="assets/icons/menu-close-btn.svg" alt="">
+        </button>
+        <ul>
+          <li>
+            <a href="">Déclarer mes achats</a>
+          </li>
+          <li>
+            <a href="">Mes grilles 2/2</a>
+          </li>
+          <li>
+            <a href="">mon compte</a>
+          </li>
+          <li>
+            <a href="">comment jouer ?</a>
+          </li>
+        </ul>
+      </div>
+      <button class="open-menu-btn">
+        <img src="assets/icons/menu-close-btn.svg" alt="">
+      </button>
     </div>
-
-
-
   </div>
   </header>
