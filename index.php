@@ -5,7 +5,6 @@
     <h1>Pages :</h1>
     <div class="list-group">
       <a class="list-group-item list-group-item-action" href="home.php">Home</a>
-      <p>kikou</p>
     </div>
   </div>
 </div>
