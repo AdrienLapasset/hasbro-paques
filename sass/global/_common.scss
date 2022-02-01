@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: start;
   @include media-breakpoint-up($md) {
-    background-image: url("../assets/imgs/bg-tablet.jpg");
+    background-image: url("../assets/imgs/background.jpg");
     background-size: cover;
     background-position: center;
   }

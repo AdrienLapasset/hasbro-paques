@@ -1,10 +1,4 @@
-<?php
-function includeHeader($page)
-{
-  include("partials/header.php");
-}
-includeHeader('ishome')
-?>
+<?php include 'partials/header.php'; ?>
 
 <div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">
   <div class=" w-100">
