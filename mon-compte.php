@@ -3,11 +3,11 @@ function includeHeader($nav)
 {
   include("partials/header.php");
 }
-includeHeader('')
+includeHeader('isNav')
 ?>
 
-<main class="home">
- toto
+<main class="mon-compte">
+ mon comtpe
 </main>
 
 <?php include 'partials/footer.php'; ?>

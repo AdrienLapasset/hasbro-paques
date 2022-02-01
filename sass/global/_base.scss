@@ -2,6 +2,12 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: $blue;
+  min-height: calc(100vh - 20px);
+  @include media-breakpoint-up($md) {
+    background-image: url("../assets/imgs/background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 a {
