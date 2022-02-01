@@ -9,22 +9,26 @@
         <img class="sticker" src="../assets/imgs/footer/BAYBLADE.png" alt="Bayblade">
         <img class="sticker" src="../assets/imgs/footer/PERSO7.png" alt="Bayblade">
         <img class="sticker" src="../assets/imgs/footer/NERF2.png" alt="Bayblade">
-        <img class="sticker" src="../assets/imgs/footer/PLAYDOH.png" alt="Bayblade">
+        <img class="sticker" style="transform: rotate(8deg)" src="../assets/imgs/footer/PLAYDOH.png" alt="Bayblade">
         <img class="sticker" src="../assets/imgs/footer/MONOP.png" alt="Bayblade">
         <img class="sticker" src="../assets/imgs/footer/POWER.png" alt="Bayblade">
         <img class="sticker" src="../assets/imgs/footer/STARWARS.png" alt="Bayblade">
       </div>
-      <div class="d-flex justify-content-center">
-        <img src="../assets/imgs/footer/LUCAS.svg" alt="Lucas Film">
-        <img src="../assets/imgs/footer/HASBRO.svg" alt="Hasbro">
-        <img src="../assets/imgs/footer/ADKEM.svg" alt="Adkem">
-        <img src="../assets/imgs/footer/DISNEY.svg" alt="Disney">
-        <img src="../assets/imgs/footer/MARVEL.svg" alt="Marvel">
+      <div class="mt-3">
+        <div class="d-flex justify-content-center align-items-center">
+          <img class="logo-footer" src="../assets/imgs/footer/LUCAS.svg" alt="Lucas Film">
+          <img class="logo-footer" src="../assets/imgs/footer/HASBRO.svg" alt="Hasbro">
+          <img class="logo-footer" src="../assets/imgs/footer/ADKEM.svg" alt="Adkem">
+          <img class="logo-footer" src="../assets/imgs/footer/DISNEY.svg" alt="Disney">
+          <img class="logo-footer" src="../assets/imgs/footer/MARVEL.svg" alt="Marvel">
+        </div>
       </div>
       <div class="d-flex justify-content-center">
         <div class="">
           <a href="#">Règlement</a>
+          <span>-</span>
           <a href="#">Mentions Légales</a>
+          <span>-</span>
           <a href="#">Contact</a>
         </div>
       </div>
