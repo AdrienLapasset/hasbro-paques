@@ -1,5 +1,4 @@
 .home {
-  @include pageBackground("../assets/imgs/bg-home.jpg");
   background-position: right;
   .brand-logo {
     @include media-breakpoint-up($xl) {

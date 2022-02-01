@@ -37,7 +37,7 @@
             <li class="nav-item">
               <a class="nav-link" href="a-gagner.php">à gagner</a>
             </li>
-            <li class="space <?php echo $page ?>"></li>
+            <li class="space"></li>
             <li class="nav-item">
               <a class="nav-link" href="participer.php">comment participer ?</a>
             </li>
