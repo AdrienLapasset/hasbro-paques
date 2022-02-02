@@ -1,0 +1,44 @@
+.creer-compte {
+  .mentions-obligatoires {
+    font-size: 8px;
+    color: white;
+  }
+  .checkbox-container {
+    position: relative;
+    display: block;
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+      cursor: pointer;
+      &:checked ~ .checkmark {
+        background-color: red;
+        &:after {
+          display: block;
+        }
+      }
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+      border-radius: 5px;
+      &:after {
+        content: "";
+        position: absolute;
+        display: none;
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+      }
+    }
+  }
+}
