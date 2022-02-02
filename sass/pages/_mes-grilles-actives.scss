@@ -14,7 +14,8 @@
     align-items: center;
     border-radius: 40px;
     background-color: rgba($color: #ffffff, $alpha: 0.8);
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     h1 {
       margin: 0 0 10px 0;
       color: $blue;
@@ -37,7 +38,7 @@
     width: fit-content;
     grid-template-columns: repeat(4, 65px);
     grid-template-rows: repeat(10, 80px);
-    background-image: url("../assets/FOND_BLEU_GRILLE.png");
+    background-image: url("../assets/imgs/background-grid.jpg");
     background-size: cover;
     border: 1px solid white;
     font-family: "Burbank Big Condensed", sans-serif;
