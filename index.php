@@ -6,7 +6,8 @@
     <div class="list-group">
       <a class="list-group-item list-group-item-action" href="home.php">Home</a>
       <a class="list-group-item list-group-item-action" href="mon-compte.php">Mon compte</a>
-      <a class="list-group-item list-group-item-action" href="grilles-actives.php">Grilles actives</a>
+      <a class="list-group-item list-group-item-action" href="mes-grilles-actives.php">Grilles actives</a>
+      <a class="list-group-item list-group-item-action" href="mes-grilles-disabled.php">Grilles verrouillées</a>
     </div>
   </div>
 </div>

@@ -1,0 +1,75 @@
+h1 {
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.mes-grilles {
+  width: 820px;
+  height: 650px;
+  margin: 25px 0 40px;
+  padding: 25px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgba($color: #ffffff, $alpha: 0.8);
+  overflow: auto;
+  h1 {
+    margin: 0 0 10px 0;
+    color: $blue;
+    text-decoration: underline;
+  }
+  .btn {
+    position: relative;
+    top: -25px;
+  }
+}
+
+.ma-grille {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxes-container {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(4, 65px);
+  grid-template-rows: repeat(10, 80px);
+  background-image: url("../assets/FOND_BLEU_GRILLE.png");
+  background-size: cover;
+  border: 1px solid white;
+  font-family: "Burbank Big Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  @include media-breakpoint-up($sm) {
+    grid-template-columns: repeat(8, 95px);
+    grid-template-rows: repeat(5, 95px);
+  }
+}
+
+.box {
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input:checked + label {
+  background-color: white;
+  color: #2062d6;
+}
