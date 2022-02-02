@@ -33,7 +33,10 @@
     }
     .btn {
       position: relative;
-      top: -25px;
+      top: -20px;
+      @include media-breakpoint-up($md) {
+        top: -25px;
+      }
     }
   }
 
