@@ -7,7 +7,7 @@ includeHeader('isNav')
 ?>
 
 <main class="mon-compte">
- mon comtpe
+  mon comtpe
 </main>
 
 <?php include 'partials/footer.php'; ?>

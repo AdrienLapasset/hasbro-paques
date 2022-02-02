@@ -21,24 +21,26 @@
           <button class="close-menu-btn">
             <img src="assets/icons/menu-close-btn.svg" alt="">
           </button>
-          <ul>
-            <li>
-              <a href="">Déclarer mes achats</a>
-            </li>
-            <li>
-              <a href="">Mes grilles 2/2</a>
-            </li>
-            <li>
-              <a href="">mon compte</a>
-            </li>
-            <li>
-              <a href="">comment jouer ?</a>
-            </li>
-          </ul>
-          <aside class="connexion">
-            Bonjour <span>Florian</span> !
-            <a href="">Déconnexion</a>
-          </aside>
+          <div class="d-flex flex-column flex-lg-row align-items-lg-end">
+            <ul class="order-2 order-lg-0">
+              <li>
+                <a href="">Déclarer mes achats</a>
+              </li>
+              <li>
+                <a href="">Mes grilles <span class="grid-count">2/2</span></a>
+              </li>
+              <li>
+                <a href="">mon compte</a>
+              </li>
+              <li>
+                <a href="">comment jouer ?</a>
+              </li>
+            </ul>
+            <aside class="connexion">
+              Bonjour <span>Florian</span> !
+              <a href="">Déconnexion</a>
+            </aside>
+          </div>
         </div>
         <button class="open-menu-btn">
           <img src="assets/icons/menu-open-btn.svg" alt="">
