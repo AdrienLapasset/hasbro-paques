@@ -1,0 +1,26 @@
+.declarer-un-achat {
+  .bloc-ticket {
+    color: $blue-dark;
+    background-image: url("../assets/imgs/bg-ticket.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px 50px;
+    width: 375px;
+    height: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      margin: 0;
+    }
+    .g-form {
+      display: flex;
+      flex-direction: column;
+    }
+    input {
+      max-width: 215px;
+    }
+  }
+}
