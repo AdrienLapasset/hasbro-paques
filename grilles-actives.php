@@ -8,9 +8,11 @@ includeHeader('isNav')
 
 
 <main class="grilles-actives">
-  <div class="d-flex justify-content-center">
+  <div class="d-flex flex-column justify-content-center">
+    <h1>Choisissez 6 numéros chances par grille</h1>
     <div class="mes-grilles">
       <form class="d-flex flex-column align-items-center">
+        <h1>Grille 1</h1>
         <div class="grid-container">
           <div class="box">
             <input id="box1" type="checkbox">

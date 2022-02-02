@@ -1,3 +1,8 @@
+h1 {
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
 .mes-grilles {
   width: 820px;
   height: 650px;
@@ -8,6 +13,10 @@
   border-radius: 40px;
   background-color: rgba($color: #ffffff, $alpha: 0.8);
   overflow: auto;
+  // .h1 {
+  //   margin: 0;
+  //   color: $blue;
+  // }
   .btn {
     position: relative;
     top: -25px;
