@@ -18,20 +18,26 @@
 }
 
 .btn {
-  font-family: "Poppins", sans-serif;
+  font-family: "Burbank Big Condensed", sans-serif;
   font-size: 30px;
   font-weight: 700;
-  border: solid 3px #fff;
-  border-radius: 20px;
-  box-shadow: 6.3px 7.8px 0 0 #1aa1f380;
-  padding: 0 45px;
+  border-radius: 25px;
+  padding: 5px 45px;
+  height: 50px;
   text-transform: uppercase;
-  color: white;
+
   &.btn-primary {
-    background-color: $blue;
+    background-color: white;
+    color: $blue;
+    border: solid 1px $blue;
   }
   &.btn-yellow {
-    background-color: #ffa00e;
+    background-color: #ffca00;
+    color: white;
+    border: solid 1px #fff;
+    &:hover {
+      color: white;
+    }
   }
 }
 
