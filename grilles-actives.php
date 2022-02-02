@@ -10,7 +10,7 @@ includeHeader('isNav')
 <main class="grilles-actives">
   <div class="d-flex justify-content-center">
     <div class="mes-grilles">
-      <form>
+      <form class="d-flex flex-column align-items-center">
         <div class="grid-container">
           <div class="box">
             <input id="box1" type="checkbox">

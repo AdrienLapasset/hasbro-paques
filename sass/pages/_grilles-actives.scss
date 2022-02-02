@@ -8,6 +8,10 @@
   border-radius: 40px;
   background-color: rgba($color: #ffffff, $alpha: 0.8);
   overflow: auto;
+  .btn {
+    position: relative;
+    top: -25px;
+  }
 }
 
 .grid-container {
