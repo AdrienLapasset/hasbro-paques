@@ -7,23 +7,31 @@ h1 {
   width: 820px;
   height: 650px;
   margin: 25px 0 40px;
+  padding: 25px 35px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   border-radius: 40px;
   background-color: rgba($color: #ffffff, $alpha: 0.8);
   overflow: auto;
-  // .h1 {
-  //   margin: 0;
-  //   color: $blue;
-  // }
+  h1 {
+    margin: 0 0 10px 0;
+    color: $blue;
+    text-decoration: underline;
+  }
   .btn {
     position: relative;
     top: -25px;
   }
 }
 
-.grid-container {
+.ma-grille {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxes-container {
   display: grid;
   width: fit-content;
   grid-template-columns: repeat(4, 65px);
@@ -35,8 +43,8 @@ h1 {
   font-weight: 700;
   font-size: 30px;
   @include media-breakpoint-up($sm) {
-    grid-template-columns: repeat(8, 100px);
-    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(8, 95px);
+    grid-template-rows: repeat(5, 95px);
   }
 }
 
