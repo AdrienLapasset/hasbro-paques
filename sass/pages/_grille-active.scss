@@ -5,7 +5,7 @@
   grid-template-columns: repeat(4, minmax(65px, 1fr));
   grid-template-rows: repeat(10, minmax(80px, 1fr));
   background-color: aqua;
-  @include media-breakup-point($sm) {
+  @include media-breakpoint-up($sm) {
     grid-template-columns: repeat(8, minmax(90px, 90px));
     grid-template-rows: repeat(5, minmax(90px, 90px));
   }

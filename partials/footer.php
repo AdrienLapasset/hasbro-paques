@@ -41,16 +41,8 @@
 <!-- JQuery JS import -->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('.open-menu-btn').click(function() {
-      $('.menu-nav').css("transform", "translateX(0px)")
-    })
-    $('.close-menu-btn').click(function() {
-      $('.menu-nav').css("transform", "translateX(200px)")
-    })
-  });
-</script>
+<script type="text/javascript" src="js/main.js"></script>
+
 
 </body>
 

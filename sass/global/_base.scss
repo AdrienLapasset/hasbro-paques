@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "Brandon medium";
+  src: url("../assets/fonts/BRANDON/Brandon_med.otf");
+}
+@font-face {
+  font-family: "Burbank bold";
+  src: url("../assets/fonts/BURBANK/BurbankBigCondensed-Bold.otf");
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Brandon medium", sans-serif;
   font-weight: 400;
   color: $blue;
   min-height: calc(100vh - 20px);
@@ -17,6 +26,10 @@ a {
   }
 }
 
-button:focus {
-  outline: none;
+button {
+  background: transparent;
+  border: none;
+  &:focus {
+    outline: none;
+  }
 }

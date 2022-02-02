@@ -14,13 +14,25 @@ header {
   &.isNav {
     .menu-container {
       display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+      @include media-breakpoint-up($lg) {
+        justify-content: center;
+      }
       .logo-ope {
         width: 150px;
       }
+      .open-menu-btn {
+        @include media-breakpoint-up($lg) {
+          display: none;
+        }
+      }
       .menu-nav {
+        $navWidth: 250px;
+        z-index: 1;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         background-color: $blue;
         position: absolute;
         right: 0;
@@ -28,7 +40,8 @@ header {
         bottom: 0;
         width: 250px;
         padding: 25px;
-        transform: translateX(200px);
+        transform: translateX(250px);
+        transition: transform 0.2s;
         @include media-breakpoint-up($lg) {
           transform: translateX(0);
           padding: 0px;
@@ -36,6 +49,9 @@ header {
           flex-direction: row;
           position: relative;
           background-color: transparent;
+        }
+        &.is-open {
+          transform: translateX(0);
         }
         .close-menu-btn {
           display: flex;
@@ -52,6 +68,8 @@ header {
           }
           li {
             a {
+              text-transform: uppercase;
+              font-size: 15px;
               display: block;
               color: white;
               text-decoration: none;
@@ -61,6 +79,25 @@ header {
                 color: $blue;
               }
             }
+          }
+        }
+        .connexion {
+          text-transform: uppercase;
+          font-family: "Burbank bold", sans-serif;
+          background-color: $blue;
+          color: white;
+          padding: 49px 25px 25px;
+          font-size: 20px;
+          line-height: 1;
+          span {
+            color: $yellow;
+          }
+          a {
+            color: white;
+            font-family: "Brandon medium", sans-serif;
+            text-transform: capitalize;
+            font-size: 13px;
+            display: block;
           }
         }
       }
