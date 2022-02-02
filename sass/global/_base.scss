@@ -9,9 +9,13 @@
 
 body {
   font-family: "Brandon medium", sans-serif;
+  font-size: 17px;
   font-weight: 400;
   color: $blue;
   min-height: calc(100vh - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @include media-breakpoint-up($md) {
     background-image: url("../assets/imgs/background.jpg");
     background-size: cover;
