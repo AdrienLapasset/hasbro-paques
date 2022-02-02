@@ -58,8 +58,8 @@ h2 {
   font-size: 25px;
   @include media-breakpoint-up($sm) {
     font-size: 30px;
-    height: 50px;
-    padding: 5px 45px 0;
+    height: 45px;
+    padding: 2px 45px 0;
   }
   &.btn-primary {
     background-color: white;
