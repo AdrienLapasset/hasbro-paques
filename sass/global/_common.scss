@@ -32,6 +32,13 @@ h1 {
     color: $blue;
     opacity: 1;
   }
+  &.input-grey {
+    ::placeholder {
+      color: rgba($color: #052055, $alpha: 0.37);
+      opacity: 1;
+      text-align: center;
+    }
+  }
 }
 
 .btn {
