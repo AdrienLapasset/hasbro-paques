@@ -1,11 +1,17 @@
 .creer-compte {
-  .mentions-obligatoires {
+  .mentions {
     font-size: 8px;
     color: white;
+    line-height: 8px;
   }
   .checkbox-container {
     position: relative;
     display: block;
+    padding-left: 27px;
+    margin-bottom: 12px;
+    color: white;
+    cursor: pointer;
+    line-height: 20px;
     input {
       position: absolute;
       opacity: 0;
@@ -14,7 +20,6 @@
       width: 0;
       cursor: pointer;
       &:checked ~ .checkmark {
-        background-color: red;
         &:after {
           display: block;
         }
@@ -24,19 +29,19 @@
       position: absolute;
       top: 0;
       left: 0;
-      height: 25px;
-      width: 25px;
-      background-color: #eee;
-      border-radius: 5px;
+      height: 18px;
+      width: 18px;
+      border-radius: 7px;
+      border: 1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       &:after {
         content: "";
-        position: absolute;
         display: none;
-        top: 9px;
-        left: 9px;
         width: 8px;
         height: 8px;
-        border-radius: 50%;
+        border-radius: 3px;
         background: white;
       }
     }
