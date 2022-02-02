@@ -1,12 +1,6 @@
-<?php
-function includeHeader($noNav)
-{
-  include("partials/header.php");
-}
-includeHeader('no-nav')
-?>
+<?php include("partials/header.php"); ?>
 
-<div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">
+<div class="container d-flex align-items-center justify-content-center py-5">
   <div class=" w-100">
     <h1>Pages :</h1>
     <div class="list-group">

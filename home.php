@@ -1,13 +1,7 @@
-<?php
-function includeHeader($nav)
-{
-  include("partials/header.php");
-}
-includeHeader('')
-?>
+<?php include("partials/header.php"); ?>
 
 <main class="home">
- toto
+  toto
 </main>
 
 <?php include 'partials/footer.php'; ?>

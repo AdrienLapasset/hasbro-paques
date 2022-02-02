@@ -10,6 +10,10 @@ header {
         width: 360px;
       }
     }
+    .menu-nav,
+    .open-menu-btn {
+      display: none;
+    }
   }
   &.isNav {
     .menu-container {
@@ -21,6 +25,7 @@ header {
       }
       .logo-ope {
         width: 150px;
+        margin-top: 25px;
       }
       .open-menu-btn {
         @include media-breakpoint-up($lg) {
@@ -28,21 +33,24 @@ header {
         }
       }
       .menu-nav {
-        $navWidth: 250px;
         z-index: 1;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: flex-start;
         background-color: $blue;
         position: absolute;
         right: 0;
         top: 0;
         bottom: 0;
-        width: 250px;
         padding: 25px;
-        transform: translateX(250px);
+        transform: translateX(100%);
         transition: transform 0.2s;
+        width: 250px;
+        @include media-breakpoint-up($sm) {
+          width: 50%;
+        }
         @include media-breakpoint-up($lg) {
+          align-items: flex-end;
           transform: translateX(0);
           padding: 0px;
           width: auto;
@@ -55,16 +63,22 @@ header {
         }
         .close-menu-btn {
           display: flex;
+          margin-left: auto;
           @include media-breakpoint-up($lg) {
             display: none;
           }
         }
         ul {
+          padding-left: 0;
           list-style: none;
           display: flex;
           flex-direction: column;
           @include media-breakpoint-up($lg) {
             flex-direction: row;
+            margin: 0 0 25px;
+          }
+          @include media-breakpoint-up($xxl) {
+            margin: 0 105px 25px;
           }
           li {
             a {
@@ -75,8 +89,23 @@ header {
               text-decoration: none;
               margin: 5px 0;
               @include media-breakpoint-up($lg) {
-                margin: 0 20px;
+                margin: 0 10px;
+                font-size: 12px;
                 color: $blue;
+              }
+              @include media-breakpoint-up($xl) {
+                margin: 0 20px;
+                font-size: 15px;
+              }
+              .grid-count {
+                border-radius: 8px;
+                padding: 0 5px;
+                color: $blue;
+                background-color: white;
+                @include media-breakpoint-up($lg) {
+                  color: white;
+                  background-color: $blue;
+                }
               }
             }
           }
@@ -86,9 +115,12 @@ header {
           font-family: "Burbank bold", sans-serif;
           background-color: $blue;
           color: white;
-          padding: 49px 25px 25px;
           font-size: 20px;
           line-height: 1;
+          padding: 40px 0;
+          @include media-breakpoint-up($lg) {
+            padding: 74px 25px 25px;
+          }
           span {
             color: $yellow;
           }
