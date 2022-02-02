@@ -2,11 +2,21 @@
   h1 {
     text-decoration: none;
     margin-bottom: 0;
+    br {
+      display: block;
+      @include media-breakpoint-up($sm) {
+        display: none;
+      }
+    }
   }
 
   .mes-grilles {
-    width: 820px;
-    height: 650px;
+    width: 285px;
+    height: 965px;
+    @include media-breakpoint-up($md) {
+      width: 820px;
+      height: 650px;
+    }
     margin: 25px 0 40px;
     padding: 25px 35px;
     display: flex;
@@ -60,11 +70,16 @@
   }
 
   label {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 60px;
+    padding: 5px 0;
+    @include media-breakpoint-up($md) {
+      width: 70px;
+      height: 70px;
+      padding: 10px 0;
+    }
     font-size: 40px;
     text-align: center;
-    padding: 10px 0;
   }
 
   input[type="checkbox"] {
@@ -73,6 +88,6 @@
 
   input:checked + label {
     background-color: white;
-    color: #2062d6;
+    color: $blue;
   }
 }

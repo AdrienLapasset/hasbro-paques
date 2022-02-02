@@ -1,6 +1,9 @@
 h1 {
   font-family: "Burbank bold", sans-serif;
-  font-size: 35px;
+  font-size: 25px;
+  @include media-breakpoint-up($sm) {
+    font-size: 35px;
+  }
   color: $yellow;
   text-transform: uppercase;
   text-decoration: underline;
