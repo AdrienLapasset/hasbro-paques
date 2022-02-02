@@ -12,7 +12,7 @@ includeHeader('no-nav')
     <div class="list-group">
       <a class="list-group-item list-group-item-action" href="home.php">Home</a>
       <a class="list-group-item list-group-item-action" href="mon-compte.php">Mon compte</a>
-      <a class="list-group-item list-group-item-action" href="grille-active.php">Grilles 1</a>
+      <a class="list-group-item list-group-item-action" href="grilles-actives.php">Grilles 1</a>
     </div>
   </div>
 </div>
