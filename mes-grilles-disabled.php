@@ -179,7 +179,7 @@ includeHeader('isNav')
       </form>
       <form class="ma-grille">
         <h1>Grille 2</h1>
-        <div class="boxes-container">
+        <div class="boxes-container boxes-container--disabled">
           <div class="box">
             <input id="box1" disabled="disabled" type="checkbox">
             <label class="disabled" for="box1">1</label>
