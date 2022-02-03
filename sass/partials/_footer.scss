@@ -1,19 +1,15 @@
 footer {
-  margin: 10px 0 20px 0;
+  margin: 10px auto 20px;
+  max-width: 280px;
   @include media-breakpoint-up($md) {
-    margin: 46px 0 20px;
+    margin: 46px auto 20px;
+    max-width: 720px;
+    padding: 0 15px;
   }
-  padding: 0 15px;
-  .container-fluid {
-    max-width: 280px;
-    max-height: 85px;
-    @include media-breakpoint-up($md) {
-      max-width: 720px;
-    }
-  }
+
   .sticker-sm {
     display: block;
-    margin: 5px 5px 0 0;
+    margin: 5px 15px 0 0;
     max-width: 60px;
     max-height: 25px;
     @include media-breakpoint-up($md) {
