@@ -10,9 +10,10 @@
     align-items: center;
     position: relative;
     width: 270px;
+    margin-bottom: 50px;
     @include media-breakpoint-up($sm) {
-      width: auto;
-      padding: 30px 40px;
+      width: 375px;
+      padding: 30px 38px;
     }
     &::after {
       content: "";
@@ -27,8 +28,8 @@
       bottom: -23px;
       @include media-breakpoint-up($sm) {
         bottom: -25px;
-        background-size: 393px 68px;
-        width: 365px;
+        background-size: 406px 68px;
+        width: 406px;
       }
     }
     h2 {
@@ -40,6 +41,14 @@
       margin: 0 0 8px;
       @include media-breakpoint-up($sm) {
         margin: 0 8px 10px;
+      }
+    }
+    &.feedback {
+      height: 300px;
+      justify-content: center;
+      p {
+        line-height: normal;
+        font-size: 20px;
       }
     }
   }

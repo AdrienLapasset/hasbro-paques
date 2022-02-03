@@ -34,7 +34,7 @@ includeHeader('isNav')
         Uploader mon ticket<span class="d-none d-sm-inline"> / ma facture</span>
       </button>
     </div>
-    <button type="submit" class="btn btn-yellow mx-auto mt-5">Valider</button>
+    <button type="submit" class="btn btn-yellow mx-auto">Valider</button>
   </form>
 </main>
 
