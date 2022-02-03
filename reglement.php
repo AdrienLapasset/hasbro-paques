@@ -1,14 +1,14 @@
 <?php
-function includeHeader($nav)
+function includeHeader($nav, $bg)
 {
   include("partials/header.php");
 }
-includeHeader('isNav')
+includeHeader('isNav', 'mentions')
 ?>
 
 <main class="mentions-legales-reglement">
   <h1>Règlement</h1>
-  <div class="section">
+  <div class="container">
     <h1 class="p-title">Règle 1</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus neque, consequat eget orci sed, consequat ultrices lorem. Duis nec ultricies nisl. Cras eget tellus tortor. Cras facilisis at ipsum quis ullamcorper. Vestibulum eget rutrum est, ullamcorper ullamcorper nisl. Aliquam ipsum magna, gravida a justo sed, cursus dignissim diam. Sed aliquam iaculis velit, sed fermentum erat ultricies nec. Mauris eleifend tempor aliquam. Ut nec imperdiet neque, id vulputate sapien. Quisque a sollicitudin lectus, non pretium nulla.</p>
     <h1 class="p-title">Règle 2</h1>

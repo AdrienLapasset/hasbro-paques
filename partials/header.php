@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
+<body class="<?php echo $bg ?>">
   <header class="<?php echo $nav ?>">
     <div class="container">
       <div class="menu-container">

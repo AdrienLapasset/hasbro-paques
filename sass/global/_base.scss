@@ -19,6 +19,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  &.mentions {
+    background-image: url("../assets/imgs/bg-mentions.jpg");
+  }
 }
 
 main {

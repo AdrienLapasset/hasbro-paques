@@ -7,6 +7,7 @@
       <a class="list-group-item list-group-item-action" href="teasing.php">Teasing</a>
       <a class="list-group-item list-group-item-action" href="home-1.php">Home - 1</a>
       <a class="list-group-item list-group-item-action" href="home-2.php">Home - 2</a>
+      <a class="list-group-item list-group-item-action" href="comment-jouer.php">Comment jouer ?</a>
       <a class="list-group-item list-group-item-action" href="mon-compte.php">Mon compte</a>
       <a class="list-group-item list-group-item-action" href="creer-compte.php">Creer compte</a>
       <a class="list-group-item list-group-item-action" href="declarer-un-achat-1.php">Déclarer un achat 1</a>
@@ -16,7 +17,6 @@
       <a class="list-group-item list-group-item-action" href="mes-grilles-disabled.php">Grilles verrouillées</a>
       <a class="list-group-item list-group-item-action" href="mentions-legales.php">Mentions légales</a>
       <a class="list-group-item list-group-item-action" href="reglement.php">Règlement</a>
-      <a class="list-group-item list-group-item-action" href="comment-jouer.php">Comment jouer ?</a>
     </div>
   </div>
 </div>
