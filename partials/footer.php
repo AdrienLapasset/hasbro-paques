@@ -1,6 +1,4 @@
 <footer>
-  <div class="container-fluid">
-    <div class="col">
       <div class="d-flex justify-content-center align-items-center flex-wrap">
         <img class="sticker" src="../assets/imgs/footer/PERSO9.png" alt="PERSO9">
         <img class="sticker" src="../assets/imgs/footer/DISNEY.png" alt="DISNEY">
@@ -43,7 +41,6 @@
           <span>-</span>
           <a href="#">Contact</a>
       </div>
-    </div>
 </footer>
 
 <!-- Bootstrap JS import -->

@@ -34,8 +34,10 @@
     .btn {
       position: relative;
       top: -20px;
+      font-size: 25px;
       @include media-breakpoint-up($md) {
         top: -25px;
+        font-size: 30px;
       }
     }
   }
