@@ -18,6 +18,7 @@ header {
     }
   }
   &.isNav {
+    width: 100%;
     .menu-container {
       display: flex;
       justify-content: space-between;
