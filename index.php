@@ -13,6 +13,7 @@
       <a class="list-group-item list-group-item-action" href="declarer-un-achat-3.php">Déclarer un achat 3</a>
       <a class="list-group-item list-group-item-action" href="mes-grilles-actives.php">Grilles actives</a>
       <a class="list-group-item list-group-item-action" href="mes-grilles-disabled.php">Grilles verrouillées</a>
+      <a class="list-group-item list-group-item-action" href="mentions-legales.php">Mentions légales</a>
     </div>
   </div>
 </div>

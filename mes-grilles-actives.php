@@ -7,11 +7,11 @@ includeHeader('isNav')
 ?>
 
 
-<main class="page-mes-grilles">
+<main class="mes-grilles">
   <div class="d-flex flex-column justify-content-center align-items-center">
     <h1>Choisissez 6 numéros<br> chances par grille</h1>
     <div class="section-mes-grilles">
-      <form class="ma-grille">
+      <form class="grille">
         <h1>Grille 1</h1>
         <div class="boxes-container">
           <div class="box">
@@ -177,7 +177,7 @@ includeHeader('isNav')
         </div>
         <button class="btn btn-yellow" type="submit">Valider ma grille</button>
       </form>
-      <form class="ma-grille">
+      <form class="grille">
         <h1>Grille 2</h1>
         <div class="boxes-container">
           <div class="box">

@@ -1,4 +1,4 @@
-.mes-grilles-disabled {
+.mes-grilles {
   h1 {
     text-decoration: none;
     margin-bottom: 0;
@@ -10,7 +10,7 @@
     }
   }
 
-  .mes-grilles {
+  .section-mes-grilles {
     width: 285px;
     height: 965px;
     @include media-breakpoint-up($md) {
@@ -33,11 +33,16 @@
     }
     .btn {
       position: relative;
-      top: -25px;
+      top: -20px;
+      font-size: 25px;
+      @include media-breakpoint-up($md) {
+        top: -25px;
+        font-size: 30px;
+      }
     }
   }
 
-  .ma-grille {
+  .grille {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,40 +59,52 @@
     font-family: "Burbank Big Condensed", sans-serif;
     font-weight: 700;
     font-size: 30px;
-    filter: brightness(70%);
-    @include media-breakpoint-up($sm) {
+    @include media-breakpoint-up($md) {
       grid-template-columns: repeat(8, 95px);
       grid-template-rows: repeat(5, 95px);
     }
-  }
-
-  .box {
-    border: 1px solid white;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  label {
-    width: 50px;
-    height: 60px;
-    padding: 5px 0;
-    @include media-breakpoint-up($md) {
-      width: 70px;
-      height: 70px;
-      padding: 10px 0;
+    &--disabled {
+      filter: brightness(70%);
     }
-    font-size: 40px;
-    text-align: center;
-  }
 
-  input[type="checkbox"] {
-    display: none;
-  }
+    .box {
+      border: 1px solid white;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-  input:checked + label {
-    background-color: white;
-    color: $blue;
+    label {
+      width: 100%;
+      height: 100%;
+      padding: 15px 0;
+      @include media-breakpoint-up($md) {
+        padding: 20px 0;
+      }
+      font-size: 40px;
+      text-align: center;
+      cursor: pointer;
+      &.disabled {
+        cursor: default;
+      }
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input:checked + label {
+      width: 50px;
+      height: 60px;
+      padding: 5px 0;
+      background-color: white;
+      color: $blue;
+      @include media-breakpoint-up($md) {
+        width: 70px;
+        height: 70px;
+        padding: 10px 0;
+      }
+    }
   }
 }
