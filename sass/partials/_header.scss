@@ -1,13 +1,15 @@
 header {
   &:not(.isNav) {
     .logo-ope {
-      margin: auto;
       display: block;
-      margin-top: 55px;
+      margin: 25px auto;
       max-width: 100%;
       width: 180px;
       @include media-breakpoint-up($sm) {
         width: 360px;
+      }
+      @include media-breakpoint-up($lg) {
+        margin-top: 55px;
       }
     }
     .menu-nav,
