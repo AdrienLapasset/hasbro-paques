@@ -8,16 +8,34 @@ includeHeader('isNav')
 
 <main class="declarer-un-achat">
   <h1>Je déclare un achat </h1>
-  <div class="bloc-ticket">
-    <h2>Ticket 1</h2>
-    <p>Nombre d’achats sur le ticket de caisse </p>
-    <form class="g-form" action="">
-      <input type="text" placeholder="Nom*">
-      <input type="text" placeholder="Nom*">
-      <input type="text" placeholder="Nom*">
-      <button type="submit" class="btn btn-yellow mx-auto mt-4">Valider</button>
-    </form>
-  </div>
+  <form class="g-form" action="">
+    <div class="bloc-ticket">
+      <h2>Ticket 1</h2>
+      <div class="d-flex flex-column flex-sm-row align-items-center mb-2">
+        <p>Nombre d’achats sur le ticket de caisse </p>
+        <select class="select-number" name="" id="">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <select class="mb-4" name="" id="">
+        <option value="">ENSEIGNE DE L’ACHAT</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <input type="file" id="file-1">
+      <label for="file-1">Code-barres produit 1</label>
+      <input type="file" id="file-2">
+      <label for="file-1">Code-barres produit 2</label>
+      <button type="button" class="btn btn-red mx-auto mt-3">
+        Uploader mon ticket<span class="d-none d-sm-inline"> / ma facture</span>
+      </button>
+    </div>
+    <button type="submit" class="btn btn-yellow mx-auto mt-5">Valider</button>
+  </form>
 </main>
 
 <?php include 'partials/footer.php'; ?>
