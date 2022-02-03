@@ -15,6 +15,7 @@
       <a class="list-group-item list-group-item-action" href="mes-grilles-actives.php">Grilles actives</a>
       <a class="list-group-item list-group-item-action" href="mes-grilles-disabled.php">Grilles verrouillées</a>
       <a class="list-group-item list-group-item-action" href="mentions-legales.php">Mentions légales</a>
+      <a class="list-group-item list-group-item-action" href="reglement.php">Règlement</a>
     </div>
   </div>
 </div>
