@@ -16,6 +16,9 @@ body {
   background-image: url("../assets/imgs/background.jpg");
   background-size: cover;
   background-position: left center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
