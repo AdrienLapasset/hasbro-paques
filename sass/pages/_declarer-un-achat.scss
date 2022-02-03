@@ -1,26 +1,77 @@
 .declarer-un-achat {
   .bloc-ticket {
+    padding: 20px;
     color: $blue-dark;
-    background-image: url("../assets/imgs/bg-ticket.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 30px 50px;
-    width: 375px;
-    height: 380px;
+    background-color: white;
+    box-shadow: 0 -3px 4px rgba($color: #000, $alpha: 0.16);
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    position: relative;
+    width: 270px;
+    margin-bottom: 50px;
+    @include media-breakpoint-up($sm) {
+      width: 375px;
+      padding: 30px 38px;
+    }
+    &::after {
+      content: "";
+      background-image: url("../assets/imgs/ticket-de-caisse.svg");
+      background-repeat: no-repeat;
+      position: absolute;
+      height: 41px;
+      z-index: -1;
+      background-position-x: center;
+      width: 270px;
+      background-size: 294px 62px;
+      bottom: -23px;
+      @include media-breakpoint-up($sm) {
+        bottom: -25px;
+        background-size: 406px 68px;
+        width: 406px;
+      }
+    }
     h2 {
-      margin: 0;
+      margin: 0 0 15px;
     }
-    .g-form {
-      display: flex;
-      flex-direction: column;
+    p {
+      line-height: 1;
+      font-size: 15px;
+      margin: 0 0 8px;
+      @include media-breakpoint-up($sm) {
+        margin: 0 8px 10px;
+      }
     }
-    input {
+    &.feedback {
+      height: 300px;
+      justify-content: center;
+      p {
+        line-height: normal;
+        font-size: 20px;
+      }
+    }
+  }
+  .g-form {
+    input,
+    select {
       max-width: 215px;
+      font-family: "Burbank bold";
+      background-color: rgba($color: #052055, $alpha: 0.04);
+    }
+    .select-number {
+      border: 1px solid $blue-dark;
+      background: white;
+      height: 25px;
+      width: 40px;
+      border-radius: 8px;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+      background-repeat: no-repeat;
+      background-position-x: 13px;
+      background-position-y: -1px;
+      padding: 0 0 0 3px;
     }
   }
 }
