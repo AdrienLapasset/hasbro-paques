@@ -34,22 +34,27 @@ footer {
     height: auto;
     width: 100%;
     max-height: 28px;
-    max-width: 75px;
+    max-width: 40px;
+    @include media-breakpoint-up($md) {
+      max-width: 75px;
+    }
     &:nth-child(1) {
       margin-right: 0;
+      max-width: 50px;
       @include media-breakpoint-up($md) {
         margin-right: 5px;
+        max-width: 65px;
       }
-      max-width: 65px;
     }
     &:nth-child(2) {
       padding: 9px;
       max-height: 60px;
       margin-right: 0;
+      max-width: 75px;
       @include media-breakpoint-up($md) {
         margin-right: 5px;
+        max-width: 110px;
       }
-      max-width: 110px;
     }
     &:nth-child(5) {
       margin-right: 0;
