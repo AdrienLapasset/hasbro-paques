@@ -1,7 +1,6 @@
 .mes-grilles {
   h1 {
     text-decoration: none;
-    margin-bottom: 0;
     br {
       display: block;
       @include media-breakpoint-up($sm) {
