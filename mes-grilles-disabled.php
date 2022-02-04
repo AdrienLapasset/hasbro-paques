@@ -63,7 +63,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid1box12"><span>12</span></label>
           </div>
           <div class="box">
-            <input id="grid1box13" disabled="disabled" type="checkbox">
+            <input id="grid1box13" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid1box13"><span>13</span></label>
           </div>
           <div class="box">
@@ -91,7 +91,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid1box19"><span>19</span></label>
           </div>
           <div class="box">
-            <input id="grid1box20" disabled="disabled" type="checkbox">
+            <input id="grid1box20" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid1box20"><span>20</span></label>
           </div>
           <div class="box">
@@ -103,11 +103,11 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid1box22"><span>22</span></label>
           </div>
           <div class="box">
-            <input id="grid1box23" disabled="disabled" type="checkbox">
+            <input id="grid1box23" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid1box23"><span>23</span></label>
           </div>
           <div class="box">
-            <input id="grid1box24" disabled="disabled" type="checkbox">
+            <input id="grid1box24" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid1box24"><span>24</span></label>
           </div>
           <div class="box">
@@ -127,7 +127,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid1box28"><span>28</span></label>
           </div>
           <div class="box">
-            <input id="grid1box29" disabled="disabled" type="checkbox">
+            <input id="grid1box29" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid1box29"><span>29</span></label>
           </div>
           <div class="box">
@@ -147,7 +147,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid1box33"><span>33</span></label>
           </div>
           <div class="box">
-            <input id="grid1box34" disabled="disabled" type="checkbox">
+            <input id="grid1box34" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid1box34"><span>34</span></label>
           </div>
           <div class="box">
@@ -175,7 +175,6 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid1box40"><span>40</span></label>
           </div>
         </div>
-        <button class="btn btn-yellow" type="submit">Valider ma grille</button>
       </form>
       <form class="grille">
         <h1>Grille 2</h1>
@@ -185,7 +184,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid2box1"><span>1</span></label>
           </div>
           <div class="box">
-            <input id="grid2box2" disabled="disabled" type="checkbox">
+            <input id="grid2box2" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid2box2"><span>2</span></label>
           </div>
           <div class="box">
@@ -201,11 +200,11 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid2box5"><span>5</span></label>
           </div>
           <div class="box">
-            <input id="grid2box6" disabled="disabled" type="checkbox">
+            <input id="grid2box6" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid2box6"><span>6</span></label>
           </div>
           <div class="box">
-            <input id="grid2box7" disabled="disabled" type="checkbox">
+            <input id="grid2box7" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid2box7"><span>7</span></label>
           </div>
           <div class="box">
@@ -249,7 +248,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid2box17"><span>17</span></label>
           </div>
           <div class="box">
-            <input id="grid2box18" disabled="disabled" type="checkbox">
+            <input id="grid2box18" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid2box18"><span>18</span></label>
           </div>
           <div class="box">
@@ -273,7 +272,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid2box23"><span>23</span></label>
           </div>
           <div class="box">
-            <input id="grid2box24" disabled="disabled" type="checkbox">
+            <input id="grid2box24" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid2box24"><span>24</span></label>
           </div>
           <div class="box">
@@ -285,7 +284,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid2box26"><span>26</span></label>
           </div>
           <div class="box">
-            <input id="grid2box27" disabled="disabled" type="checkbox">
+            <input id="grid2box27" disabled="disabled" type="checkbox" checked>
             <label class="disabled" for="grid2box27"><span>27</span></label>
           </div>
           <div class="box">
@@ -341,7 +340,6 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid2box40"><span>40</span></label>
           </div>
         </div>
-        <button class="btn btn-yellow" type="submit">Valider ma grille</button>
       </form>
     </div>
   </div>
