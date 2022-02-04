@@ -8,6 +8,17 @@
       }
     }
   }
+  &.disabled {
+    .btn {
+      display: none;
+    }
+    .grille {
+      margin-bottom: 25px;
+      @include media-breakpoint-up($md) {
+        margin-bottom: 40px;
+      }
+    }
+  }
   .section-mes-grilles {
     width: 285px;
     height: 960px;

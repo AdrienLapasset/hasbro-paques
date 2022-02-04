@@ -7,7 +7,7 @@ includeHeader('isNav', 'isMaxGridCount')
 ?>
 
 
-<main class="mes-grilles">
+<main class="mes-grilles disabled">
   <div class="d-flex flex-column justify-content-center align-items-center">
     <h1>Choisissez 6 numéros<br> chances par grille</h1>
     <div class="section-mes-grilles">
@@ -175,6 +175,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid1box40"><span>40</span></label>
           </div>
         </div>
+        <button class="btn btn-yellow" type="submit">Valider ma grille</button>
       </form>
       <form class="grille">
         <h1>Grille 2</h1>
@@ -340,6 +341,7 @@ includeHeader('isNav', 'isMaxGridCount')
             <label class="disabled" for="grid2box40"><span>40</span></label>
           </div>
         </div>
+        <button class="btn btn-yellow" type="submit">Valider ma grille</button>
       </form>
     </div>
   </div>
