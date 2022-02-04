@@ -9,14 +9,20 @@
     }
   }
   &.disabled {
-    .btn {
-      display: none;
-    }
     .grille {
       margin-bottom: 25px;
       @include media-breakpoint-up($md) {
         margin-bottom: 40px;
       }
+      .boxes-container {
+        filter: brightness(70%);
+        label {
+          cursor: default;
+        }
+      }
+    }
+    .btn {
+      display: none;
     }
   }
   .section-mes-grilles {
@@ -74,9 +80,6 @@
       grid-template-columns: repeat(8, 95px);
       grid-template-rows: repeat(5, 95px);
     }
-    &--disabled {
-      filter: brightness(70%);
-    }
     .box {
       border: 1px solid white;
       color: white;
@@ -95,9 +98,6 @@
       font-size: 40px;
       text-align: center;
       cursor: pointer;
-      &.disabled {
-        cursor: default;
-      }
       &:before {
         content: "";
         width: 50px;
