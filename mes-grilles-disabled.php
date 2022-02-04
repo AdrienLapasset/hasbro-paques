@@ -1,9 +1,9 @@
 <?php
-function includeHeader($nav)
+function includeHeader($nav, $isMaxGridCount)
 {
   include("partials/header.php");
 }
-includeHeader('isNav')
+includeHeader('isNav', 'isMaxGridCount')
 ?>
 
 

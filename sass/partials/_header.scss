@@ -105,9 +105,53 @@ header {
                 padding: 0 5px;
                 color: $blue;
                 background-color: white;
+                position: relative;
                 @include media-breakpoint-up($lg) {
                   color: white;
                   background-color: $blue;
+                }
+                .grid-max-tooltip {
+                  top: 38px;
+                  width: 215px;
+                  display: none;
+                  position: absolute;
+                  background-color: white;
+                  color: $red;
+                  text-transform: none;
+                  font-size: 12px;
+                  border-radius: 16px;
+                  padding: 15px;
+                  box-shadow: 0 0 6px rgba($color: #000000, $alpha: 0.16);
+                  align-items: center;
+                  line-height: 1;
+                  right: -93px;
+                  @include media-breakpoint-up($lg) {
+                    right: unset;
+                  }
+                  img {
+                    width: 19px;
+                    margin-right: 5px;
+                  }
+                  &::before {
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-left: 8px solid transparent;
+                    border-right: 8px solid transparent;
+                    border-bottom: 13px solid white;
+                    top: -12px;
+                    position: absolute;
+                    left: 92px;
+                    filter: drop-shadow(0 -7px 6px rgba(0, 0, 0, 0.16));
+                  }
+                }
+                &.isMaxGridCount {
+                  background-color: $red;
+                  &:hover {
+                    .grid-max-tooltip {
+                      display: flex;
+                    }
+                  }
                 }
               }
             }

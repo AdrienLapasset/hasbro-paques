@@ -27,7 +27,17 @@
                 <a href="">Déclarer mes achats</a>
               </li>
               <li>
-                <a href="">Mes grilles <span class="grid-count">2/2</span></a>
+                <a href="">Mes grilles
+                  <span class="grid-count <?php echo $isMaxGridCount ?>">
+                    2/2
+                    <aside class="grid-max-tooltip">
+                      <div>
+                        <img src="assets/imgs/ATTENTION.png" alt="">
+                      </div>
+                      Vous avez atteint le nombre<br /> maximum de grilles
+                    </aside>
+                  </span>
+                </a>
               </li>
               <li>
                 <a href="">mon compte</a>
