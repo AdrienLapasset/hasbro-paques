@@ -27,7 +27,8 @@
                 <a href="">Déclarer mes achats</a>
               </li>
               <li>
-                <a href="">Mes grilles
+                <a class="d-flex" href="">
+                  Mes grilles
                   <span class="grid-count <?php echo $isMaxGridCount ?>">
                     2/2
                     <aside class="grid-max-tooltip">
