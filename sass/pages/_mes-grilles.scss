@@ -8,7 +8,6 @@
       }
     }
   }
-
   .section-mes-grilles {
     width: 285px;
     height: 960px;
@@ -43,14 +42,12 @@
       }
     }
   }
-
   .grille {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
   }
-
   .boxes-container {
     display: grid;
     width: fit-content;
@@ -59,7 +56,7 @@
     background-image: url("../assets/imgs/background-grid.jpg");
     background-size: cover;
     border: 1px solid white;
-    font-family: "Burbank Big Condensed", sans-serif;
+    font-family: "Burbank bold", sans-serif;
     font-weight: 700;
     font-size: 30px;
     @include media-breakpoint-up($md) {
@@ -69,7 +66,6 @@
     &--disabled {
       filter: brightness(70%);
     }
-
     .box {
       border: 1px solid white;
       color: white;
@@ -77,8 +73,8 @@
       align-items: center;
       justify-content: center;
     }
-
     label {
+      position: relative;
       width: 100%;
       height: 100%;
       padding: 15px 0;
@@ -91,22 +87,35 @@
       &.disabled {
         cursor: default;
       }
+      &:before {
+        content: "";
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        position: absolute;
+        display: none;
+        top: 11px;
+        left: 11px;
+      }
+      span {
+        position: relative;
+      }
     }
-
     input[type="checkbox"] {
       display: none;
     }
-
-    input:checked + label {
-      width: 50px;
-      height: 60px;
-      padding: 5px 0;
-      background-color: white;
-      color: $blue;
-      @include media-breakpoint-up($md) {
-        width: 70px;
-        height: 70px;
-        padding: 10px 0;
+    input {
+      &:checked {
+        & + label {
+          span {
+            color: $blue;
+            @include media-breakpoint-up($md) {
+            }
+          }
+          &:before {
+            display: block;
+          }
+        }
       }
     }
   }
