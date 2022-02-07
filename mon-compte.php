@@ -43,9 +43,9 @@ includeHeader('isNav')
         </div>
       </div>
     </div>
-    <input type="text" placeholder="Mot de passe actuel ">
-    <input type="text" placeholder="Nouveau mot de passe ">
-    <input type="text" placeholder="Confirmer le nouveau mot de passe ">
+    <input type="text" placeholder="Mot de passe actuel">
+    <input type="text" placeholder="Nouveau mot de passe">
+    <input type="text" placeholder="Confirmer le nouveau mot de passe">
     <button type="submit" class="btn btn-yellow mx-auto mt-4">Valider les modifications</button>
   </form>
 </main>

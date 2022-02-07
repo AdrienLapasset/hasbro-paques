@@ -26,13 +26,12 @@ includeHeader('isNav')
         <option value="3">3</option>
         <option value="4">4</option>
       </select>
+      <input type="text" placeholder="Code-barres produit 1">
+      <input type="text" placeholder="Code-barres produit 2">
       <input type="file" id="file-1">
-      <label for="file-1">Code-barres produit 1</label>
-      <input type="file" id="file-2">
-      <label for="file-1">Code-barres produit 2</label>
-      <button type="button" class="btn btn-red mx-auto mt-3">
-        Uploader mon ticket<span class="d-none d-sm-inline"> / ma facture</span>
-      </button>
+      <label for="file-1" class="btn btn-red mx-auto mt-3">
+        Uploader mon ticket <span class="d-none d-sm-inline">&nbsp;/ ma facture</span>
+      </label>
     </div>
     <button type="submit" class="btn btn-yellow mx-auto">Valider</button>
   </form>
