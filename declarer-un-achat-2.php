@@ -10,7 +10,7 @@ includeHeader('isNav')
   <h1>Je déclare un achat</h1>
   <div class="bloc-ticket feedback">
     <p>Merci,<br />
-      pour pouvez maintenant remplir
+      vous pouvez maintenant remplir
       vos grilles dans l’onglet « mes grilles »
       ou revenir le faire plus tard.</p>
   </div>
