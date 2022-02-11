@@ -25,15 +25,13 @@
     <img class="sticker-sm" src="assets/imgs/footer/HASBRO-sm.png" alt="HASBRO">
     <img class="sticker-sm" src="assets/imgs/footer/DISNEYPRINCESS-sm.png" alt="DISNEYPRINCESS">
   </div>
-  <div class="mt-3 mb-1">
-    <div class="d-flex justify-content-center align-items-center">
-      <img class="logo-footer" src="assets/imgs/footer/LUCAS.svg" alt="Lucas Film">
-      <img class="logo-footer" src="assets/imgs/footer/HASBRO.svg" alt="Hasbro">
-      <img class="logo-footer" src="assets/imgs/footer/ADKEM.svg" alt="Adkem">
-      <img class="logo-footer" src="assets/imgs/footer/DISNEY.svg" alt="Disney">
-      <img class="logo-footer" src="assets/imgs/footer/MARVEL.svg" alt="Marvel">
+    <div class="mt-4 mb-4 d-flex justify-content-center align-items-end logo-footer-container">
+        <img src="assets/imgs/footer/logo-LUCAS.svg" alt="Lucas Film">
+        <img src="assets/imgs/footer/logo-HASBRO.png" alt="Hasbro">
+        <img  src="assets/imgs/footer/logo-ADKEM.png" alt="Adkem">
+        <img  src="assets/imgs/footer/logo-DISNEY.png" alt="Disney">
+        <img  src="assets/imgs/footer/logo-MARVEL.png" alt="Marvel">
     </div>
-  </div>
   <div class="d-flex justify-content-center">
     <a href="#">Règlement</a>
     <span>-</span>

@@ -26,38 +26,23 @@ footer {
     margin-right: 20px;
     filter: drop-shadow(0 3px 6px);
   }
-  .logo-footer {
-    margin-right: 10px;
-    @include media-breakpoint-up($md) {
-      margin-right: 20px;
-    }
-    height: auto;
-    width: 100%;
-    max-height: 28px;
-    max-width: 40px;
-    @include media-breakpoint-up($md) {
-      max-width: 75px;
-    }
-    &:nth-child(1) {
-      margin-right: 0;
-      max-width: 50px;
-      @include media-breakpoint-up($md) {
-        margin-right: 5px;
-        max-width: 65px;
+  .logo-footer-container {
+    & > * {
+      margin: 0 5px;
+      max-height: 20px;
+      &:nth-child(2) {
+        max-height: 40px;
+        position: relative;
+        top: 6px;
+        @include media-breakpoint-up($md) {
+          max-height: 60px;
+          top: 8px;
+        }
       }
-    }
-    &:nth-child(2) {
-      padding: 9px;
-      max-height: 60px;
-      margin-right: 0;
-      max-width: 75px;
       @include media-breakpoint-up($md) {
-        margin-right: 5px;
-        max-width: 110px;
+        margin: 0 10px;
+        max-height: 30px;
       }
-    }
-    &:nth-child(5) {
-      margin-right: 0;
     }
   }
   a {
