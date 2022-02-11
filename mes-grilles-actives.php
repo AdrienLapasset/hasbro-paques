@@ -11,14 +11,12 @@ includeHeader('isNav')
   <div class="d-flex flex-column justify-content-center align-items-center">
     <h1>Choisissez 6 numéros<br> chances par grille</h1>
     <div class="section-mes-grilles">
-      <form class="grille">
+      <form class="grille" id="grid-1">
         <h1>Grille 1</h1>
         <div class="boxes-container">
           <div class="box">
             <input id="grid1box1" type="checkbox">
-            <label for="grid1box1">
-              <span>1</span>
-            </label>
+            <label for="grid1box1"><span>1</span></label>
           </div>
           <div class="box">
             <input id="grid1box2" type="checkbox">
@@ -179,7 +177,7 @@ includeHeader('isNav')
         </div>
         <button class="btn btn-yellow" type="submit">Valider ma grille</button>
       </form>
-      <form class="grille">
+      <form class="grille" id="grid-2">
         <h1>Grille 2</h1>
         <div class="boxes-container">
           <div class="box">

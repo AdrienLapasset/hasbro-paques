@@ -1,15 +1,23 @@
 $(document).ready(function () {
-  // Init bootstrap tooltips
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-  })
-
-
+  
+  // Open/close menu
   $('.open-menu-btn').click(function () {
     $('.menu-nav').addClass("is-open")
   })
   $('.close-menu-btn').click(function () {
     $('.menu-nav').removeClass("is-open")
   })
+
+  // Grid checkbox limit
+  var limit = 6;
+  $('#grid-1 input[type=checkbox]').on('change', function(e) {
+   if($('#grid-1 input[type=checkbox]:checked').length >= limit + 1) {
+       this.checked = false;
+   }
+  });
+  $('#grid-2 input[type=checkbox]').on('change', function(e) {
+   if($('#grid-2 input[type=checkbox]:checked').length >= limit + 1) {
+       this.checked = false;
+   }
+  });
 });
