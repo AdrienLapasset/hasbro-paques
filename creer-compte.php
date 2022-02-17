@@ -33,7 +33,7 @@ includeHeader('')
       <img src="assets/icons/pen.svg" alt="">
     </div>
     <div class="input-container">
-      <input type="text" placeholder="Confirmer son mot de passe*" required>
+      <input type="text" placeholder="Confirmer le mot de passe*" required>
       <img src="assets/icons/pen.svg" alt="">
     </div>
     <div class="row">

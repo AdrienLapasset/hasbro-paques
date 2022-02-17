@@ -43,6 +43,15 @@ footer {
           top: 8px;
         }
       }
+      &:nth-child(6) {
+        max-height: 30px;
+        position: relative;
+        top: 6px;
+        @include media-breakpoint-up($md) {
+          max-height: 45px;
+          top: 8px;
+        }
+      }
     }
   }
   a {
