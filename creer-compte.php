@@ -9,24 +9,45 @@ includeHeader('')
 <main class="creer-compte">
   <h1>Je crée mon compte</h1>
   <form class="g-form" action="">
-    <input type="text" placeholder="Nom*">
-    <img src="assets/icons/pen.svg" alt="">
-    <input type="text" placeholder="Prénom*">
-    <img src="assets/icons/pen.svg" alt="">
-    <input type="email" placeholder="Adresse email*">
-    <img src="assets/icons/pen.svg" alt="">
-    <input type="text" placeholder="Numéro de téléphone*">
-    <img src="assets/icons/pen.svg" alt="">
-    <input type="text" placeholder="Adresse postale*">
-    <img src="assets/icons/pen.svg" alt="">
+    <div class="input-container">
+      <input type="text" placeholder="Nom*" required>
+      <img src="assets/icons/pen.svg" alt="">
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Prénom*" required>
+      <img src="assets/icons/pen.svg" alt="">
+    <div class="input-container">
+      <input type="email" placeholder="Adresse email*" required>
+      <img src="assets/icons/pen.svg" alt="">
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Numéro de téléphone*" required>
+      <img src="assets/icons/pen.svg" alt="">
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Adresse postale*" required>
+      <img src="assets/icons/pen.svg" alt="">
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Mot de passe*" required>
+      <img src="assets/icons/pen.svg" alt="">
+    </div>
+    <div class="input-container">
+      <input type="text" placeholder="Confirmer son mot de passe*" required>
+      <img src="assets/icons/pen.svg" alt="">
+    </div>
     <div class="row">
       <div class="col-md-6">
-        <input type="text" placeholder="Code postal*">
+      <div class="input-container">
+        <input type="text" placeholder="Code postal*" required>
         <img src="assets/icons/pen.svg" alt="">
+        </div>
       </div>
       <div class="col-md-6">
-        <input type="text" placeholder="Pays*">
+      <div class="input-container">
+        <input type="text" placeholder="Pays*" required>
         <img src="assets/icons/pen.svg" alt="">
+        </div>
       </div>
     </div>
     <p class="mentions">* Mentions obligatoires</p>
