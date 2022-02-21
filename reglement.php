@@ -16,13 +16,14 @@ includeHeader('isNav', 'mentions')
     <p>L’agence Les Envahisseurs 433 999 257 RCS LYON, SASU Société par actions simplifiée à associé unique (ci-après désignée « la Société gestionnaire »), organise pour le compte de la société HASBRO FRANCE, S.A.S au capital de 1.700.000 Euros, immatriculée au Registre du Commerce et des Sociétés de Chambéry sous le n° 746 220 623 dont le siège social est situé à l’adresse suivante Savoie-Technolac, 73370 Le Bourget-du-Lac (ci-après désignée la "Société Organisatrice") un jeu avec obligation d’achat (ci-après dénommé le « jeu »), valable du 26/03/2022 au 17/04/2022 inclus selon les modalités décrites dans le présent règlement (ci-après dénommé « Règlement »).</p>
     <h1 class="p-title">ARTICLE 2 – Conditions d’accès au jeu</h1>
     <p>Le jeu est ouvert à toute personne physique majeure résidant en France Métropolitaine, Corse incluse disposant d’un accès internet et d’une adresse électronique valide.  A l’exception des membres du personnel de la Société Organisatrice, des prestataires ayant participé à la mise en place du jeu et de leur famille.</p>
-    <p>Le jeu est porté à la connaissance du public sur les supports suivants :</p>
-    <ul>
-      <li>PLV magasins</li>
-      <li>Site internet : www.loto-paques-hasbro.fr</li>
-      <li>Réseaux sociaux</li>
-      <li>Site affinitaire</li>
-    </ul>
+    <div>Le jeu est porté à la connaissance du public sur les supports suivants :
+      <ul>
+        <li>PLV magasins</li>
+        <li>Site internet : www.loto-paques-hasbro.fr</li>
+        <li>Réseaux sociaux</li>
+        <li>Site affinitaire</li>
+      </ul>
+    </div>
     <h1 class="p-title">ARTICLE 3 – Limite de participation</h1>
     <p>Le jeu est limité à un compte par foyer (même nom, même adresse, même e-mail, même RIB) sur toute la durée du jeu. Le nombre maximum de grilles qu’un participant pourra se voir attribuer est <b>limité à 7</b> et l’achat de produits supplémentaires ne donne pas droit à l’attribution de grilles supplémentaires ou plus de chances de gagner.</p>
     <p>Le Jeu se déroule exclusivement via le site accessible à l’adresse : www.loto-paques-hasbro.fr à l’exclusion de tout autre moyen de participation.</p>
@@ -45,7 +46,7 @@ includeHeader('isNav', 'mentions')
       <li>Accepter que ses données personnelles soient utilisées dans le cadre du jeu.</li>
       <li>Valider le formulaire pour recevoir un mail de confirmation de création de compte.</li>
     </ul>
-    <p>Pour se connecter de nouveau, les participants déjà inscrits peuvent s’identifier sur leur compte en entrant leur identifiant et leur mot de passe.</p>
+    <p>Pour se connecter de nouveau, les participants déjà inscrits peuvent <b>s’identifier</b> sur leur compte en entrant leur identifiant et leur mot de passe.</p>
     <p><b>4/ Pour obtenir une grille</b> ou plusieurs grilles, enregistrer son achat en téléchargeant :</p>
     <ul>
       <li>Le ticket de caisse (ou facture) avec le/les produits et la date d’achat entourés.</li>
