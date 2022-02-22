@@ -50,7 +50,7 @@ includeHeader('isNav', 'mentions')
     <p><b>4/ Pour obtenir une grille</b> ou plusieurs grilles, enregistrer son achat en téléchargeant :</p>
     <ul>
       <li>Le ticket de caisse (ou facture) avec le/les produits et la date d’achat entourés.</li>
-      <li>Le/les codes-barres du/des produit(s) Hasbro éligible(s) à l’offre</li>
+      <li>La/les photo(s) du/des produit(s) Hasbro éligible(s) à l'offre</li>
     </ul>
     <p>En fonction du nombre de produits achetés, une ou plusieurs grilles seront automatiquement disponibles dans l’onglet « Mes grilles ».</p>
     <p><b>5/ Choisir sa combinaison de 6 numéros</b> sur une grille puis valider son choix. Attention toute validation est définitive, il sera impossible de modifier ses choix de numéros.</p>
